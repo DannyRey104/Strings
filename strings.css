@@ -1,0 +1,27 @@
+
+h1{
+    color: rgb(14, 14, 95);
+    text-align: center;
+}
+body{
+    background-color: rgb(187, 149, 223);
+    color: aqua;
+    margin-left: 70px;
+    font-weight: bold ;
+    float: left;
+    clear: left;
+    width: 200px;
+    text-align: left;
+    margin-right: 15px;
+    font-family:sans-serif,bold, Arial, Helvetica;
+    font-size:25px;
+}
+image{
+    align-items: end;
+    margin-left: 60%;
+}
+   
+form {                                        
+    margin: 0 auto;
+    width: 600px;
+}
