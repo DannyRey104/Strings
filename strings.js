@@ -14,6 +14,7 @@ var strLength = str.length();
 
       //loop for checking if string is palindrome
 for (int; i = strLength - 1; i >=0, --i) {
+        stringstr = strLength;
         reverseStr = reverseStr + stringstr.charAt(i);
       
     }
