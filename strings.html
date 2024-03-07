@@ -28,18 +28,25 @@
     </p><br>
 
    <!--form-->
-    <form id="palindromeText" onsubmit="isPalidrone()">
+    <form id="palindromeText" onsubmit="isPalindrome()">
         <!--User input box for checking palindrome-->
         <label for="palindrome"> Palindrome </label>
-        <input type="text" id="palindrome" name="palindrome"/>
+        <input type="text" id="palindrome" name="palindrome" required/>
     </br>
+        <!--submit the values of all filled out boxes in form-->
+        <input type="submit" value="submit">
+    </br>
+    </br>
+    </form>
+
+    <form id="userInput" onsubmit="isUserInput()">
         <!--User input box for checking first and last name-->
         <label for="firstNameAndLastName"> First Name And Last Name </label>
-        <input type="text" id="firstNameAndLastName" name="firstNameAndLastName"/>
+        <input type="text" id="firstNameAndLastName" name="firstNameAndLastName" required/>
     </br>
         <!--User input box for checking zipcode-->
         <label for="zipcode"> Zipcode </label>
-        <input type="text" id="zipcode" name="zipcode"/>
+        <input type="text" id="zipcode" name="zipcode" required/>
     </br>
         <!--submit the values of all filled out boxes in form-->
         <input type="submit" value="submit">
